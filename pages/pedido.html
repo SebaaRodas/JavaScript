@@ -26,7 +26,7 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link" href="carrito.html">Ofertas</a>
+                  <a class="nav-link" href="oferta.html">Ofertas</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">Pedido</a>
@@ -44,7 +44,7 @@
 		<section>
 			<form id="formulario">
 				<label  for="nombre">Ingrese su Nombre: 
-					<input id="nombre" type="text" name="nombre" required> 
+					<input id="nombre" type="text" name="nombre" onkeypress="return /[a-z ]/i.test(event.key)" required> 
 				</label><br><br>
 				<label  for="direccion">Ingrese su Direccion: 
 					<input id="direccion" type="text" name="direccion" required>

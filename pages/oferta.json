@@ -1,17 +1,17 @@
 [
     {
         "id" : 21,
-        "nombre": "fernet con coca",
+        "nombre": "Fernet con Coca",
         "imagen" : "../multimedia/imagenes/fernet.jpeg"
     },
     {
         "id" : 22,
-        "nombre": "vino con manaos",
+        "nombre": "Vino con Manaos",
         "imagen" : "../multimedia/imagenes/vino.jpeg"
     },
     {
         "id" : 23,
-        "nombre": "brahma",
+        "nombre": "Brahma",
         "imagen" : "../multimedia/imagenes/promoBrahma.jpeg"
     }
 ]
